@@ -26,3 +26,15 @@ sheet.title = "Employees"
 
 for row in records:
     sheet.append(row)
+
+table = Table(displayName = "Table", ref = "A1:G2")
+
+style = TableStyleInfo(name = "TableStyleMedium9", showRowStripes = True, showColumnStripes = True)
+
+table.TableStyleInfo = style
+
+sheet.add_table(table)
+
+workbook.save(file_path)
+
+text_file.close()
