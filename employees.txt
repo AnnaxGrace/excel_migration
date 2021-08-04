@@ -1,0 +1,2 @@
+ID;First Name;Last Name;Department;Phone;Address;Salary
+1;Luke;Phillip;Sales;1232123;1st Address, Miami;52000
